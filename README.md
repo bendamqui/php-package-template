@@ -1,4 +1,4 @@
-# Getting Started
+# Installation
 
 * `copy .env.example to .env`
 * `docker-compose up --build -d`
