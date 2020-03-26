@@ -1,4 +1,4 @@
-FROM php:7.2-cli-alpine
+FROM php:7.3-cli-alpine
 
 WORKDIR /var/www/html
 
@@ -8,7 +8,7 @@ RUN apk add --no-cache git
 RUN apk add --no-cache $PHPIZE_DEPS
 
 RUN docker-php-ext-install mysqli
-RUN pecl install xdebug-2.6.1
+RUN pecl install xdebug-2.8.0
 RUN docker-php-ext-enable xdebug
 
 COPY xdebug.ini /usr/local/etc/php/conf.d/xdebug-dev.ini
