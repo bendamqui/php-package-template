@@ -1,5 +1,6 @@
 # Installation
 
+* `composer create-project bendamqui/php-package-template:dev-php-7.4  my-package --no-install --ignore-platform-reqs`
 * `copy .env.example to .env`
 * `docker-compose up --build -d`
 * `docker-compose exec php composer install`
