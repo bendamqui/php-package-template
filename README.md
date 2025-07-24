@@ -1,6 +1,6 @@
 # Installation
 
-* `composer create-project bendamqui/php-package-template:dev-php-7.4  my-package --no-install --ignore-platform-reqs`
+* `composer create-project bendamqui/php-package-template:dev-php-8.4  my-package --no-install --ignore-platform-reqs`
 * `copy .env.example to .env`
 * `docker-compose up --build -d`
 * `docker-compose exec php composer install`
@@ -11,7 +11,7 @@
 * Add a php cli interpreter in Preference > Languages & Frameworks > PHP. Choose the
 php version from the container.
 
-* Set debug port to 9001 in Preference > Languages & Frameworks > PHP > Debug
+* Set debug port to 9003 in Preference > Languages & Frameworks > PHP > Debug
 
 * Create a server in Preference > Languages & Frameworks > PHP > Server.
     * name: Has to be equal to the value of PHP_IDE_CONFIG in the .env file.
