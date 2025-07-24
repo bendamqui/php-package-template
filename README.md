@@ -19,6 +19,4 @@ php version from the container.
     * port: 80
     * Set the path mapping.
 
-    
-
 
